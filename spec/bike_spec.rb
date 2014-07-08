@@ -4,7 +4,7 @@ describe Bike do
 
 	let(:bike) { Bike.new }
 
-	it 'Should not be broken afte we create a bike' do
+	it 'Should not be broken after we create it' do
 		expect(bike.broken?).not_to be true
 	end
 
